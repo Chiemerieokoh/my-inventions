@@ -1,0 +1,95 @@
+body {
+    text-align: center;
+    font-family: Arial;
+    background: linear-gradient(to right, #141e30, #243b55);
+    color: white;
+}
+
+/* Screens */
+.screen {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+/* Title */
+h1 {
+    margin-top: 30px;
+    font-size: 32px;
+}
+
+/* Paragraphs */
+p {
+    font-size: 18px;
+}
+
+/* 🎮 MAIN BUTTONS (Play, Restart, Menu) */
+button {
+    padding: 15px 25px;      /* 🔥 enlarged buttons */
+    margin: 10px;
+    font-size: 18px;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    background: #222;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+/* 🔥 Hover effect for buttons */
+button:hover {
+    background: #00ffcc;
+    color: black;
+    transform: scale(1.15);
+    box-shadow: 0 0 15px #00ffcc,
+                0 0 30px #00ffcc;
+}
+
+/* 🔥 Click effect */
+button:active {
+    transform: scale(0.95);
+}
+
+/* 🎯 Game Board */
+#board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* ❌⭕ Cells */
+.cell {
+    width: 100px;
+    height: 100px;
+    font-size: 40px;
+    font-weight: bold;
+    border-radius: 10px;
+    background: #111;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Cell Hover Effect */
+.cell:hover {
+    background: #00ffcc;
+    color: black;
+    transform: scale(1.1);
+    box-shadow: 0 0 10px #00ffcc;
+}
+
+/* Result Text */
+#result {
+    font-size: 22px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Score Text */
+span {
+    font-weight: bold;
+}

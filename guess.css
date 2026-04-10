@@ -1,0 +1,70 @@
+body {
+    text-align: center;
+    font-family: Arial;
+    background: linear-gradient(to right, #4facfe, #00f2fe);
+    color: white;
+}
+
+/* Title */
+h1 {
+    margin-top: 40px;
+    font-size: 32px;
+}
+
+/* Screens */
+.screen {
+    display: none;
+}
+
+.active {
+    display: block;
+}
+
+/* Input */
+input {
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    margin-top: 10px;
+}
+
+/* 🔘 BUTTONS (ENLARGED) */
+button {
+    padding: 18px 30px;   /* 🔥 enlarged buttons */
+    margin: 12px;
+    font-size: 18px;
+    border: none;
+    border-radius: 14px;
+    cursor: pointer;
+    background: #222;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+/* 🔥 Hover Effect */
+button:hover {
+    background: #00ffcc;
+    color: black;
+    transform: scale(1.15);
+    box-shadow: 0 0 15px #00ffcc,
+                0 0 30px #00ffcc;
+}
+
+/* 🔥 Click Effect */
+button:active {
+    transform: scale(0.95);
+}
+
+/* Result Text */
+#result {
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+/* Paragraphs */
+p {
+    font-size: 18px;
+}
